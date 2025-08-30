@@ -159,21 +159,6 @@ The tool creates detailed logs in `superperformance_screener.log` and outputs to
 - **Graceful Degradation**: Continues processing even if some stocks fail
 - **Data Validation**: Validates all input data before processing
 
-## 🔒 Security
-
-- API keys are stored in environment variables
-- No sensitive data is logged
-- Google Sheets access is restricted to your specified spreadsheet
-
-## 📞 Support
-
-For issues or questions:
-
-1. Check the logs in `superperformance_screener.log`
-2. Verify your API keys are correct
-3. Ensure your Google Sheet is shared with the service account
-4. Run tests to verify core functionality
-
 ## 📄 License
 
 This project is for educational and research purposes. Please ensure compliance with EODHD and Google API terms of service.
